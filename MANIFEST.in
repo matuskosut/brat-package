@@ -1,0 +1,20 @@
+include brat/README.md
+include brat/LICENSE.md
+include brat/index.html
+include brat/index.xhtml
+include brat/offline.xhtml
+include brat/diff.xhtml
+include brat/favicon.ico
+include brat/ajax.fcgi
+include brat/ajax.cgi
+
+graft brat/server/lib
+graft brat/server/src
+graft brat/client/lib
+graft brat/client/src
+graft brat/static
+graft brat/tools
+
+global-exclude *.py[cod]
+global-exclude __pycache__
+exclude .github
