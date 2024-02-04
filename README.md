@@ -27,7 +27,7 @@ Create a test directory that will be used for annotation data:
 mkdir -pv test
 cd test
 
-brat 8081
+BRAT_PASSWORD=pass4 brat 8081
 ```
 
 ## Environment Variables
