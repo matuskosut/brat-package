@@ -28,7 +28,7 @@ def get_config_py_path():
 
 stats.get_config_py_path = get_config_py_path
 
-from brat.standalone import main  # noqa
+from bratserver.standalone import main  # noqa
 
 
 def run():
